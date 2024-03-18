@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+  body{
+
+    background: url(https://img.freepik.com/premium-photo/stawberry-with-berries-hd-8k-background-wallpaper-stock-photographic-image_915071-27496.jpg?w=996);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    background-color: beige;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 10%;
+  }
+
+  .title{
+    color:white;
+    position:absolute;
+    top: 7%;
+  }
+
+  h3{
+    margin-top: 5px;
+    margin-left: 40px;
+  }
+
+.form{
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+input{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:18px ;
+    height: 28px;
+    width: 250px;
+    margin-top: 3px;
+    padding-left: 5px;
+    border-radius: 3px;
+    border: none;
+    letter-spacing: 1px;
+}
+
+input:focus{
+    outline: none;
+    box-shadow: 0px 5px 15px black;
+}
+
+input:hover{
+    box-shadow: 0px 5px 15px black;
+}
+td tr{
+    padding: 10px;
+}
+
+#submit{
+    font-size: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    height: 30px;
+    width: 310px;
+    cursor: pointer;
+    margin: 5px 0px 0px 13px;
+    border-radius: 5px;
+    border: none;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 3px gray;
+   
+}
+
+#submit:hover{
+    box-shadow: 0px 5px 15px black;
+}
+
+    </style>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruits Corner</title>
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3eSll040lAXsPKuogIEGVqH7f5GkxtC3Wbw&usqp=CAU">
+
+</head>
+<body>
+
+    <div class="title">
+        <h2>FRUIT CORNER'S</h2>
+        <h3>Daily Updates</h3>
+    </div>
+
+    <form action="table.php" method="post" class="form">
+        <tr><td>CODE :</td> <td><input type="text" name="code" id="" required></td></tr> <br><br>
+        <tr><td>NAME : <input type="text" name="name" required></td></tr> <br><br>
+        <tr><td>PRICE : <input type="text" name="price" required></td></tr><br><br>
+        <tr><td><input type="submit" name="submit" id="submit" value="SUBMIT"></td></tr><br><br>
+    </form>
+
+    
+</body>
+</html>
